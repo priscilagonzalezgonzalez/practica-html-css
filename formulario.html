@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+
+                    <li> 
+                        <a href="formulario.html">Formulario</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <h1 class="contacto">Contacto</h1>
+
+        <div class="form">
+            
+            <form action="#" method="get">
+                <ul id="form-list">
+                    <li>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="user_name" id="name">
+                    </li>
+
+                    <li>
+                        <label for="mail">Correo</label>
+                        <input type="email" name="email" id="mail">
+                    </li>
+
+                    <li>
+                        <p>Genero</p>
+
+                        <input type="radio" id="genderChoice1"
+                               name="gender" value="mascul">
+                        <label for="genderChoice1">Masculino</label>
+
+                        <input type="radio" id="genderChoice2"
+                               name="gender" value="fem">
+                        <label for="contactChoice2">Femenino</label>
+                    </li>
+
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="password" name="pass" id="password">
+                    </li>
+
+                    <li>
+                        <label class="comment" for="comment">Escribe un comentario</label>
+                        <textarea id="comment" name="comment" rows="10" cols="50"></textarea>
+                    </li>
+
+                    <li>
+                        <label for="ciudad">Ciudad</label>
+
+                        <select name="ciudad" id="ciudad">
+                          <option value="gdl">Guadalajara</option>
+                          <option value="zapopan">Zapopan</option>
+                          <option value="tonala">Tonalá</option>
+                          <option value="otra">Otra</option>
+                        </select>
+                    </li>
+                        
+                    <li>
+                        <label for="contratar"><input type="checkbox" name="contratar" id="contratar"> Me interesa contratarte</label>
+                    </li>
+
+                    <li>
+                        <input type="submit" value="Enviar">
+                    </li>
+                </ul>
+
+            </form>
+
+        </div>
+
+        
+
+        
+    </body>
+</html>

@@ -1,0 +1,304 @@
+body {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #4E84A6;
+}
+
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-list > li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.nav-list > li:last-child {
+    border-right: none;
+}
+
+.nav-list > li a {
+	font-family: 'Poppins';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list > li a:hover {
+    background-color: #54A1BF;
+}
+
+h1 {
+	font-family: 'Poppins';
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+h2 {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 21px;
+}
+
+p {
+	font-family: 'Poppins';
+	font-size: 14px;
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.acerca {
+	padding: 10px;
+	width: 43%;
+	background-color: rgba(216,227,242, 1);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.acerca > p, h2 {
+	padding: 5px 20px;
+}
+
+.conocimientos {
+	font-family: 'Poppins';
+	font-size: 14px;
+	width: 43%;
+}
+
+
+.fortalezas {
+	font-family: 'Poppins';
+	font-size: 14px;
+	margin-top: 40px;
+	width: 43%;
+}
+
+.admiro {
+	width: 43%;
+	background-color: rgba(216,227,242, 1);
+	margin-top: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.box2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.box2 > p:last-child {
+	width: 43%;
+}
+
+.admiro > h2 {
+	padding: 10px;
+	width: 100%;
+	order: 1;
+}
+
+.negritas {
+	font-weight: 600;
+	font-size: 15;
+	display: inline;
+	width: 100%;
+}
+
+.imagen {
+	margin-right: 0;
+	margin-left: 0;
+	width: 50%;
+	order: 3;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+#biografia {
+	order: 2;
+}
+
+.admiro > p {
+	margin-left: 40px;
+}
+
+.proyectos {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+table {
+	width: 100%;
+	border-style: solid;
+	border-width: .5px;
+	border-color: #4E84A6;
+	border-collapse: collapse;
+}
+
+thead{
+	font-family: 'Poppins';
+	font-size: 16px;
+	font-weight: 600px;
+}
+
+tbody {
+	font-family: 'Poppins';
+	font-size: 14px;
+}
+
+td, th {
+	padding: 20px;
+}
+
+td:nth-child(2) {
+	width: 35%;
+	
+}
+th:nth-child(2) {
+	width: 35%;
+}
+
+td:nth-child(3) {
+	width: 35%;
+}
+th:nth-child(3) {
+	width: 35%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #99AFF2;
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #C4D4F2;
+}
+
+div {
+	margin-left: 38px;
+	margin-right: 38px;
+}
+
+.footer {
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #4E84A6;
+}
+
+.footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.foot-list > li {
+    float: right;
+    border-left: 1px solid #bbb;
+}
+
+.foot-list > li a {
+	font-family: 'Poppins';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.foot-list > li a:hover {
+    background-color: #54A1BF;
+}
+
+/*Estilos del formulario*/
+
+.contacto {
+	margin-bottom: 30px;
+}
+
+.form {
+	width: 60%;
+	background-color: #C4D4F2;
+	margin: auto;
+	font-family: 'Poppins';
+	font-size: 16px;
+}
+
+form > ul {
+	list-style-type: none;
+}
+
+#form-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#form-list > li {
+	margin: 20px;
+	width: 100%;
+	
+}
+
+li > p, textarea {
+	margin-left: 10px;
+}
+
+li textarea {
+
+}
+
+.comment {
+	display: inline-block;
+	width: 100%;
+}
+
+li > input {
+	display: inline-block;
+	width: 80%;
+}
+
+#genderChoice1 {
+	display: inline-block;
+	width: 10%;
+}
+
+#genderChoice2 {
+	display: inline-block;
+	width: 10%;
+}
+
+#form-list > li:last-child{
+	width: 30%;
+	position: relative;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+input, option, select {
+	font-family: 'Poppins';
+	font-size: 14px;
+
+}
+
+li > label {
+	margin: 10px;
+}
